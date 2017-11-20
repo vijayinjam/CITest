@@ -8,7 +8,7 @@ pipeline {
                 echo 'Building..'
             }
         }
-        stage('JS-lints') {
+        stage('JS-lnt') {
             steps {
                 echo 'Building..'
             }
