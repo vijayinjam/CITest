@@ -8,7 +8,12 @@ pipeline {
                 echo 'Building..'
             }
         }
-        stage('Test') {
+        stage('Unit-Test') {
+            steps {
+                echo 'Building..'
+            }
+        }
+        stage('Fun-Test') {
             steps {
                 echo 'Testing..'
             }
