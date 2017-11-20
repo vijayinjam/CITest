@@ -8,6 +8,11 @@ pipeline {
                 echo 'Building..'
             }
         }
+        stage('JS-Lint') {
+            steps {
+                echo 'Building..'
+            }
+        }
         stage('Unit-Test') {
             steps {
                 echo 'Building..'
